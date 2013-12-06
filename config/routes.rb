@@ -1,4 +1,6 @@
 ContactApp::Application.routes.draw do
+  resources :people
+
   get "contact_app/home"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
